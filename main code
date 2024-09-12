@@ -6,8 +6,22 @@
     <title>3D Model Viewer</title>
     
     <!-- Link to the 3DHOP JavaScript and CSS files -->
+    <script type="text/javascript" src="src/corto.em.js"></script>
+    <script type="text/javascript" src="src/corto.js"></script>
+    <script type="text/javascript" src="src/helpers.js"></script>
+    <script type="text/javascript" src="src/init.js"></script>
+    <script type="text/javascript" src="src/jquery.js"></script>
+    <script type="text/javascript" src="src/meco.js"></script>
     <script type="text/javascript" src="src/nexus.js"></script>
-    <script type="text/javascript" src="src/trackball.js"></script>
+    <script type="text/javascript" src="src/nexus.monitor.js"></script>
+    <script type="text/javascript" src="src/ply.js"></script>
+    <script type="text/javascript" src="src/presenter.js"></script>
+    <script type="text/javascript" src="src/spidergl.js"></script>
+    <script type="text/javascript" src="src/trackball_pantilt.js"></script>
+    <script type="text/javascript" src="src/trackball_rail.js"></script>
+    <script type="text/javascript" src="src/trackball_sphere.js"></script>
+    <script type="text/javascript" src="src/trackball_turntable.js"></script>
+    <script type="text/javascript" src="src/trackball_turbtable_pan.js"></script>
     <link rel="stylesheet" type="text/css" href="src/3dhop.css">
 
     <!-- Optional: Set the style for your viewer -->
