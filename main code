@@ -7,7 +7,7 @@
     
     <!-- Link to the 3DHOP JavaScript and CSS files -->
     <script type="text/javascript" src="src/nexus.js"></script>
-    <script type="text/javascript" src="src/trackball.js"></script> <!-- Add more JS files if necessary -->
+    <script type="text/javascript" src="src/trackball.js"></script>
     <link rel="stylesheet" type="text/css" href="src/3dhop.css">
 
     <!-- Optional: Set the style for your viewer -->
