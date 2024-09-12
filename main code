@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3D Model Viewer</title>
+    
+    <!-- Link to the 3DHOP JavaScript and CSS files -->
+    <script type="text/javascript" src="src/nexus.js"></script>
+    <script type="text/javascript" src="src/trackball.js"></script> <!-- Add more JS files if necessary -->
+    <link rel="stylesheet" type="text/css" href="src/3dhop.css">
+
+    <!-- Optional: Set the style for your viewer -->
+    <style>
+        body {
+            text-align: center;
+        }
+        #hop-container {
+            margin: 0 auto;
+            width: 800px;
+            height: 600px;
+            border: 1px solid #000;
+        }
+    </style>
+</head>
+<body>
+    <h1>3D Model Viewer</h1>
+
+    <!-- Container for the 3DHOP viewer -->
+    <div id="hop-container"></div>
+
+    <script type="text/javascript">
+        // Initialize the 3DHOP viewer
+        var viewer = new Viewer('hop-container');
+
+        // Set background color (optional)
+        viewer.setBackgroundColor(0.8, 0.8, 0.8, 1);
+
+        // Load the 3D model (.ply file)
+        viewer.addModel('models/your_model.ply');
+    </script>
+</body>
+</html>
