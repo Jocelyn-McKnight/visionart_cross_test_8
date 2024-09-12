@@ -37,7 +37,7 @@
         viewer.setBackgroundColor(0.8, 0.8, 0.8, 1);
 
         // Load the 3D model (.ply file)
-        viewer.addModel('models/your_model.ply');
+        viewer.addModel('models/Raven_Ruthwell_Cross_small.ply');
     </script>
 </body>
 </html>
